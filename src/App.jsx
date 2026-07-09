@@ -45,8 +45,8 @@ function App() {
         gsap.to(char, {
           fontVariationSettings: '"wght" 800', // Restore font weight
           scale: 1,                           // Restore original size
-          duration: 0.25,
-          ease: "power2.out",
+          duration: 2,
+          ease: "elastic.out",
           overwrite: "auto",
           yPercent:0
         });
@@ -83,7 +83,7 @@ function App() {
           cursor: "default",
         }}
       >
-        Hello, There!
+        ThenickClicks!
       </h1>
     </div>
   );
